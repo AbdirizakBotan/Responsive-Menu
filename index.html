@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive menu</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="bg-blue-500 p-6 flex justify-between sm:flex">
+        <h1 class="text-5xl text-white">Abdirizak</h1>
+    
+        <i id="menu-icon" class="fa-solid text-white text-5xl sm:hidden absolute right-2 fa-bars"></i>
+        <i id="closeIcon" class="fa-solid fa-xmark text-white text-5xl hidden sm:hidden absolute right-2"></i>
+    <ul  id="menu" class="sm:flex hidden mt-16 sm:mt-0 flex-col sm:flex-row space-y-6 sm:space-y-0 sm:gap-20 text-3xl text-white">
+        <li class="hover:underline cursor-pointer">Home</li>
+        <li class="hover:underline cursor-pointer">About me</li>
+        <li class="hover:underline cursor-pointer">Service</li>
+        <li class="hover:underline cursor-pointer">Skills</li>
+
+    </ul>
+    
+    </div>
+    <script src="responsive.js"></script>
+</body>
+</html>
